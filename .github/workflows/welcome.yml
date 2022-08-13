@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Simple Welcome Message
-      run: echo "Wecome to Github Action workflows"
+       run: echo "Wecome to Github Action workflows"
       - run: ls ${{ github.workspace }}
